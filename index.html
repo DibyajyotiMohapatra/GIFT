@@ -22,7 +22,7 @@
     <div class="container" id="blue">
       <div class="instruction"> wait to see magic!</div>
       <div class="box1">
-        <video src="media/family vdo.mp4" id="video2" autoplay loop></video>
+        <video src="media/family vdo.mp4" id="video2" id="autoplay" loop></video>
       </div>
       <div class="box2">
         <img src="media/prato with papa.jpg" alt="prato with papa" id="image1">
@@ -79,6 +79,11 @@
     <img src="media/vangogh.jpg" alt="">
     <div class="mes1">I tried my level best to convay all my feelings through my creativity.<br> <br>Hope you liked the gift!</div>
   </div>
+  <script>
+    window.onload= function() {
+      document.getElementById("autoplay").play();
+    }
+  </script>
 </body>
 
 </html>
